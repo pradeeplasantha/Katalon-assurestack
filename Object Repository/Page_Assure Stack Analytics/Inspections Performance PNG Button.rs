@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Inspections Performance PNG Button</name>
+   <tag></tag>
+   <elementGuidId>6cdaa49e-a8a3-4fcb-81c0-732cc7bdbe5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@onclick='downloadPerformanceChart()']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0cfd854d-47d6-4f9e-8eab-e3592b79de40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>downloadPerformanceChart()</value>
+      <webElementGuid>e746d8ed-c03e-4425-8cf2-7bad24dd9801</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>as-primary-btn</value>
+      <webElementGuid>3b760a54-e921-4b73-b30f-8eab30c0ded8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> PNG
+                    </value>
+      <webElementGuid>21393dfb-d9e1-4a26-b920-b76e7825d57c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;as-container-fluid&quot;]/div[@class=&quot;as-dashboard-wrapper&quot;]/div[@class=&quot;as-dashboard-wrapper__main-content&quot;]/div[@class=&quot;as-reports&quot;]/div[@class=&quot;as-reports__full-width&quot;]/div[@class=&quot;chart-information&quot;]/div[@class=&quot;chart-information__head&quot;]/div[@class=&quot;chart-information__head___controls&quot;]/div[@class=&quot;chart-information__head___controls___export&quot;]/button[@class=&quot;as-primary-btn&quot;]</value>
+      <webElementGuid>89e0f577-25bf-4695-91db-47c940ad8706</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@onclick='downloadPerformanceChart()']</value>
+      <webElementGuid>7bdc1d9d-1cdb-406f-a406-a7d4702dba18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='INSPECTIONS PERFORMANCE'])[1]/following::button[1]</value>
+      <webElementGuid>c70e4cf5-c421-4ce7-975f-22f5644d2bb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PNG'])[1]/following::button[1]</value>
+      <webElementGuid>6ad2fa25-5e75-4b3c-a435-4ae1eb21591b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RESPONSE BREAKDOWN'])[1]/preceding::button[1]</value>
+      <webElementGuid>59125c90-814e-4f81-9666-e43b070e8124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Response'])[1]/preceding::button[1]</value>
+      <webElementGuid>e281707e-eda3-420c-a971-2801c12cbcbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div[2]/div[2]/button</value>
+      <webElementGuid>a8885e5e-d0b7-424b-b5fb-e4873aa8b225</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' PNG
+                    ' or . = ' PNG
+                    ')]</value>
+      <webElementGuid>31b053b9-8438-4788-aa27-aa150ecb78e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_1</name>
+   <tag></tag>
+   <elementGuidId>c7c3f0d2-e3df-4c2a-9c2c-258172c48154</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.score.green</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='TOTAL AUDITS CONDUCTED'])[1]/following::label[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>d4f64b64-6b23-4e3e-8931-8a6512c22180</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>score green</value>
+      <webElementGuid>010bd361-05e9-4e11-8ce9-637b70d31f70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>77bc6ec0-4cf5-4307-8d97-ed0ba4b83d6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;as-container-fluid&quot;]/div[@class=&quot;as-dashboard-wrapper&quot;]/div[@class=&quot;as-dashboard-wrapper__main-content&quot;]/div[@class=&quot;as-reports&quot;]/div[@class=&quot;as-reports__filter-section as-reports__filter-section___four-col-layer&quot;]/div[@class=&quot;as-reports__filter-section___four-col-layer___chart&quot;]/div[@class=&quot;as-reports__filter-section___four-col-layer___chart__chart&quot;]/label[@class=&quot;score green&quot;]</value>
+      <webElementGuid>4ae8700d-a23d-4721-8dc5-d2af05aa3508</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOTAL AUDITS CONDUCTED'])[1]/following::label[1]</value>
+      <webElementGuid>caa7ade5-b095-4b9e-93e0-cc5b845b630d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::label[1]</value>
+      <webElementGuid>fa795f42-50cf-4003-89f9-c22489141714</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AVERAGE SCORE'])[1]/preceding::label[1]</value>
+      <webElementGuid>26d15c09-6945-4045-ab20-b35fab2ef3bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UNIQUE PEOPLE CONDUCTING AUDITS'])[1]/preceding::label[2]</value>
+      <webElementGuid>18c7bbf0-e0cf-4804-826d-ecd25da78793</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/label</value>
+      <webElementGuid>7e4abe3e-19df-404d-bcb9-8431cadef346</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = '1' or . = '1')]</value>
+      <webElementGuid>e902c87a-9e5c-412b-99b8-d4203aeadd4c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

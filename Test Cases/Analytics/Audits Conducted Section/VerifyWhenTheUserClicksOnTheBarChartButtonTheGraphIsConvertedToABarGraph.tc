@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyWhenTheUserClicksOnTheBarChartButtonTheGraphIsConvertedToABarGraph</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e027f229-eb77-467f-bd13-b9e8dfc77571</testCaseGuid>
+</TestCaseEntity>

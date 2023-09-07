@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Inspections Performance Line Chart Button</name>
+   <tag></tag>
+   <elementGuidId>b8ae3152-65eb-4676-9d84-457f1cf9f761</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div/div[4]/div/div[1]/div[2]/div[1]/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.chart-information__head___controls___types___type > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>39da59cc-eeb4-4c17-86bf-48f51950a8a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>wire:click</name>
+      <type>Main</type>
+      <value>changeChartType('bar')</value>
+      <webElementGuid>f6c3b06f-cc99-41d4-aa0a-4c556f4443bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;as-container-fluid&quot;]/div[@class=&quot;as-dashboard-wrapper&quot;]/div[@class=&quot;as-dashboard-wrapper__main-content&quot;]/div[@class=&quot;as-reports&quot;]/div[@class=&quot;as-reports__full-width&quot;]/div[@class=&quot;chart-information&quot;]/div[@class=&quot;chart-information__head&quot;]/div[@class=&quot;chart-information__head___controls&quot;]/div[@class=&quot;chart-information__head___controls___types&quot;]/div[@class=&quot;as-hover&quot;]/div[@class=&quot;chart-information__head___controls___types___type&quot;]/a[1]</value>
+      <webElementGuid>74e9f8cc-7668-40b9-85c1-98bc6c7d675c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AUDITS CONDUCTED'])[1]/following::a[1]</value>
+      <webElementGuid>b05ede5f-94cf-46fb-a0d6-443d7c01a81e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOTAL FLAGGED ITEMS'])[1]/following::a[1]</value>
+      <webElementGuid>fee34485-5398-4f0f-8a68-978b6ed9b6db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click here to change the report view to a bar chart'])[1]/preceding::a[1]</value>
+      <webElementGuid>ccbede01-85b9-43ca-b555-3920a9ad1fa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click here to change the report view to a line chart'])[1]/preceding::a[2]</value>
+      <webElementGuid>67d6cd60-323e-491e-887d-72064dc4f43e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/a</value>
+      <webElementGuid>3639ef69-06c7-4d04-bc66-9980c39db6ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

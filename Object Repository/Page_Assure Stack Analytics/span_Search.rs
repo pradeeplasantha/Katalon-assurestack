@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Search</name>
+   <tag></tag>
+   <elementGuidId>4c351c90-e783-460e-952d-cd2806a635a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.as-common-form.as-flex-row-end > button.as-primary-btn > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Archived'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8536be56-5a7f-42f2-a6d2-8c17663fd4bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>wire:target</name>
+      <type>Main</type>
+      <value>getResult</value>
+      <webElementGuid>da35b8ee-c867-485d-b156-db03ee18baa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                            Search
+                                                        </value>
+      <webElementGuid>010a5bd1-e891-4816-8490-6d49ee379f58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;as-container-fluid&quot;]/div[@class=&quot;as-dashboard-wrapper&quot;]/div[@class=&quot;as-dashboard-wrapper__main-content&quot;]/div[@class=&quot;as-reports&quot;]/div[@class=&quot;as-reports__filter-section&quot;]/div[1]/div[@class=&quot;as-reports__filter-section___panel&quot;]/div[@class=&quot;as-reports__filter-section___panel___content&quot;]/div[@class=&quot;as-common-form&quot;]/form[1]/div[@class=&quot;as-common-form__three-col&quot;]/div[@class=&quot;as-full-width flexy&quot;]/div[@class=&quot;as-common-form as-flex-row-end&quot;]/button[@class=&quot;as-primary-btn&quot;]/span[1]</value>
+      <webElementGuid>42653e85-d54b-496d-8172-b1adb65728a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Archived'])[1]/following::span[1]</value>
+      <webElementGuid>3dd7598a-2992-4297-9db5-df1301b1c0a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Incompleted'])[1]/following::span[1]</value>
+      <webElementGuid>7832a06e-44c4-498f-a76f-6da44861b000</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::span[1]</value>
+      <webElementGuid>13d4cfd8-c4d4-4897-9a65-e50941c10faa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOTAL AUDITS CONDUCTED'])[1]/preceding::span[2]</value>
+      <webElementGuid>0f396034-a05a-481a-af6a-04c35bc627e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Search']/parent::*</value>
+      <webElementGuid>720d4dc5-a68d-4908-ad16-c78efec043ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/span</value>
+      <webElementGuid>f474e9b5-286d-4260-9970-6b3eceef09d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+                                                            Search
+                                                        ' or . = '
+                                                            Search
+                                                        ')]</value>
+      <webElementGuid>6b5f254b-8271-4f3b-b1aa-043e079411c4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

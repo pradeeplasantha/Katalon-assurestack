@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyOnceUserClickInspectionsPerformancePngButtonThenUserAbleToDownloadTheGraphSuccessfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>120d4592-cf11-422c-95aa-eb4c29880698</testCaseGuid>
+</TestCaseEntity>

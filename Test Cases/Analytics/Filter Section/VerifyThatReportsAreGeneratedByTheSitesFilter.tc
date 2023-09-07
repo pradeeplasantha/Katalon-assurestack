@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyThatReportsAreGeneratedByTheSitesFilter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8c32d8f-9e18-496d-9ae6-ff8b6698e4ab</testCaseGuid>
+</TestCaseEntity>

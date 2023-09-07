@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyThatReportsAreGeneratedByTheTemplateFilter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>715ce785-594d-4f9d-be4e-c82a74d1388a</testCaseGuid>
+</TestCaseEntity>

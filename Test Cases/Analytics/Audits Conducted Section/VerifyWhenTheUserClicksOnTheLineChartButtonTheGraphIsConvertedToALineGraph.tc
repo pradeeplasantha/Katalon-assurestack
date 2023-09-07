@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyWhenTheUserClicksOnTheLineChartButtonTheGraphIsConvertedToALineGraph</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee2a41f0-b3d4-4463-90b2-9437944b8c9f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Template Down Arrow Button</name>
+   <tag></tag>
+   <elementGuidId>624eb4cd-713e-4d5c-9187-ef06639198a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa-solid.fa-caret-down</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>9cf2488e-3b9c-4b79-aab5-3e54bb6dc174</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa-solid fa-caret-down</value>
+      <webElementGuid>d7d2592e-4580-4bec-beea-71e126dc3f40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;as-container-fluid&quot;]/div[@class=&quot;as-dashboard-wrapper&quot;]/div[@class=&quot;as-dashboard-wrapper__main-content&quot;]/div[@class=&quot;as-reports&quot;]/div[@class=&quot;as-reports__filter-section&quot;]/div[1]/div[@class=&quot;as-reports__filter-section___panel&quot;]/div[@class=&quot;as-reports__filter-section___panel___content&quot;]/div[@class=&quot;as-common-form&quot;]/form[1]/div[@class=&quot;as-common-form__three-col&quot;]/div[@class=&quot;as-common-form__input as-common-form__three-col___column&quot;]/div[@class=&quot;as-custom-multiple-select-dropdown&quot;]/div[@class=&quot;as-custom-multiple-select-dropdown__top-dropdown&quot;]/div[@class=&quot;as-custom-multiple-select-dropdown__top-dropdown___icons&quot;]/div[@class=&quot;dropdown-icon&quot;]/i[@class=&quot;fa-solid fa-caret-down&quot;]</value>
+      <webElementGuid>d8872db6-09dd-47fc-8efa-e2788d95a691</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/i</value>
+      <webElementGuid>004df5f1-14b6-4925-b412-2be6782be3a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]/div[2]/i</value>
+      <webElementGuid>e1feae8e-ed1f-4c22-b561-49da9b98e89c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

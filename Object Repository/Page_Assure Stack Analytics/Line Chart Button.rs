@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Line Chart Button</name>
+   <tag></tag>
+   <elementGuidId>624ffe78-0d78-4f29-b6cc-ea8a120ed8e1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.chart-information__head___controls___types___type > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div/div[3]/div/div[1]/div[2]/div[1]/div[2]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>66ebb048-b1ef-418b-a03c-60323427755f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>wire:click</name>
+      <type>Main</type>
+      <value>changeChartType('bar')</value>
+      <webElementGuid>d8b8917c-b977-4226-a255-4a5c65e3dc71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;as-container-fluid&quot;]/div[@class=&quot;as-dashboard-wrapper&quot;]/div[@class=&quot;as-dashboard-wrapper__main-content&quot;]/div[@class=&quot;as-reports&quot;]/div[@class=&quot;as-reports__full-width&quot;]/div[@class=&quot;chart-information&quot;]/div[@class=&quot;chart-information__head&quot;]/div[@class=&quot;chart-information__head___controls&quot;]/div[@class=&quot;chart-information__head___controls___types&quot;]/div[@class=&quot;as-hover&quot;]/div[@class=&quot;chart-information__head___controls___types___type&quot;]/a[1]</value>
+      <webElementGuid>068a13b9-e51e-48d2-8b46-9846e277a899</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AUDITS CONDUCTED'])[1]/following::a[1]</value>
+      <webElementGuid>2ed57090-76f1-4f06-afa7-2c58be53e7b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOTAL FLAGGED ITEMS'])[1]/following::a[1]</value>
+      <webElementGuid>a688f0e6-e407-4b43-8ea2-3e7e5896435e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click here to change the report view to a bar chart'])[1]/preceding::a[1]</value>
+      <webElementGuid>3ec8203c-8de4-449c-961b-2b61ae0b5108</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click here to change the report view to a line chart'])[1]/preceding::a[2]</value>
+      <webElementGuid>5a431ae9-3eb7-4129-91dc-bab5166a241e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/a</value>
+      <webElementGuid>3f7028bf-e7d9-4590-a35e-4856fa36c660</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyThatReportsAreGeneratedByTheFinishedByFilter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6bd63cef-a30e-4c2c-8c05-3106bb7632cc</testCaseGuid>
+</TestCaseEntity>

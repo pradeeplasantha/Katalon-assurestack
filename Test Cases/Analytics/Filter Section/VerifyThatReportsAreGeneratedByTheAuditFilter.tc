@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyThatReportsAreGeneratedByTheAuditFilter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45c869ef-863d-4dca-a0fc-bafa87890942</testCaseGuid>
+</TestCaseEntity>
