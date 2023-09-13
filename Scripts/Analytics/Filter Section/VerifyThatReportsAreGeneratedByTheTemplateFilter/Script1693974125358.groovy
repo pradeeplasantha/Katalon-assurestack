@@ -18,6 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import java.nio.file.*
+import java.io.File as File
 
 WebUI.callTestCase(findTestCase('Common Testcases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -47,15 +49,67 @@ WebUI.verifyElementClickable(findTestObject('Page_Assure Stack Analytics/Search 
 
 WebUI.click(findTestObject('Page_Assure Stack Analytics/Search Button'))
 
-WebUI.verifyGreaterThan(WebUI.getText(findTestObject('Page_Assure Stack Analytics/label_1')), 0)
-
-def length = 10
-
-def Screenshot = RandomStringUtils.randomAlphanumeric(length)
+WebUI.verifyGreaterThan(WebUI.getText(findTestObject('Page_Assure Stack Analytics/TOTAL AUDITS CONDUCTED')), 0)
 
 String relativePath = RunConfiguration.getProjectDir()
 
-WebUI.takeScreenshot(((relativePath + '\\Test Cases Screenshots\\Template Filter\\') + Screenshot) + '.png')
+String folderPath = relativePath + '\\Test Cases Screenshots\\Template Filter\\Single Selection'
+
+File folder = new File(folderPath)
+
+if (folder.exists() && folder.isDirectory()) {
+    File[] files = folder.listFiles()
+
+    for (File file : files) {
+        if (file.isFile() && file.getName().toLowerCase().endsWith('.png')) {
+            file.delete()
+
+            println("Deleted PNG file: $file.name")
+        }
+    }
+} else {
+    println('Folder does not exist or is not a directory.')
+}
+
+WebUI.takeScreenshot(relativePath + '\\Test Cases Screenshots\\Template Filter\\Single Selection\\Template_Filter.png')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart Button'), 
+    GlobalVariable.TimeOut)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart Button'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart Button'))
+
+WebUI.click(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart Button'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart'), 
+    GlobalVariable.TimeOut)
+
+WebUI.scrollToElement(findTestObject('Page_Assure Stack Analytics/Audits Conducted Bar Chart'), GlobalVariable.TimeOut)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart'), GlobalVariable.TimeOut)
+
+WebUI.takeScreenshot(relativePath + '\\Test Cases Screenshots\\Template Filter\\Single Selection\\Audits_Conducted_Bar_Chart.png')
+
+WebUI.verifyElementText(findTestObject('Page_Assure Stack Analytics/Inspections Performance Text'), 'INSPECTIONS PERFORMANCE')
+
+WebUI.verifyElementPresent(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart Button'), GlobalVariable.TimeOut)
+
+WebUI.verifyElementVisible(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart Button'))
+
+WebUI.verifyElementClickable(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart Button'))
+
+WebUI.click(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart Button'))
+
+WebUI.waitForElementPresent(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart'), GlobalVariable.TimeOut)
+
+WebUI.scrollToElement(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart'), GlobalVariable.TimeOut)
+
+WebUI.verifyElementPresent(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart'), GlobalVariable.TimeOut)
+
+WebUI.takeScreenshot(relativePath + '\\Test Cases Screenshots\\Template Filter\\Single Selection\\Inspections_Performance_Bar_Chart.png')
+
+WebUI.callTestCase(findTestCase('Common Testcases/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

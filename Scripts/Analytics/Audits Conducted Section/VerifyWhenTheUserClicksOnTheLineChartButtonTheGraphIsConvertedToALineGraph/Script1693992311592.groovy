@@ -16,8 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.apache.commons.lang.RandomStringUtils
-import com.kms.katalon.core.configuration.RunConfiguration
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import java.nio.file.*
 
 WebUI.callTestCase(findTestCase('Common Testcases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -39,13 +40,13 @@ WebUI.verifyElementClickable(findTestObject('Page_Assure Stack Analytics/Search 
 
 WebUI.click(findTestObject('Page_Assure Stack Analytics/Search Button'))
 
-WebUI.verifyGreaterThan(WebUI.getText(findTestObject('Page_Assure Stack Analytics/label_1')), 0)
+WebUI.verifyGreaterThan(WebUI.getText(findTestObject('Page_Assure Stack Analytics/TOTAL AUDITS CONDUCTED')), 0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Assure Stack Analytics/AUDITS CONDUCTED Text'), 'AUDITS CONDUCTED')
 
 WebUI.click(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart Button'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Assure Stack Analytics/Line Chart Button'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Assure Stack Analytics/Line Chart Button'), GlobalVariable.TimeOut)
 
 WebUI.verifyElementVisible(findTestObject('Page_Assure Stack Analytics/Line Chart Button'))
 
@@ -53,20 +54,32 @@ WebUI.verifyElementClickable(findTestObject('Page_Assure Stack Analytics/Line Ch
 
 WebUI.click(findTestObject('Page_Assure Stack Analytics/Line Chart Button'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Assure Stack Analytics/Line Chart'), 0)
+WebUI.waitForElementPresent(findTestObject('Page_Assure Stack Analytics/Line Chart'), GlobalVariable.TimeOut)
 
-WebUI.scrollToElement(findTestObject('Page_Assure Stack Analytics/Line Chart'), 0)
+WebUI.scrollToElement(findTestObject('Page_Assure Stack Analytics/Line Chart'), GlobalVariable.TimeOut)
 
-WebUI.verifyElementPresent(findTestObject('Page_Assure Stack Analytics/Line Chart'), 0)
-
-def length = 10
-
-def Screenshot = RandomStringUtils.randomAlphanumeric(length)
+WebUI.verifyElementPresent(findTestObject('Page_Assure Stack Analytics/Line Chart'), GlobalVariable.TimeOut)
 
 String relativePath = RunConfiguration.getProjectDir()
 
-WebUI.takeScreenshot(((relativePath + '\\Test Cases Screenshots\\Audits Conducted Section\\Line Chart\\') + Screenshot) + 
-    '.png')
+String filePathToDelete = relativePath + '\\Test Cases Screenshots\\Audits Conducted Section\\Line Chart\\Audits_Conducted_Line_Chart.png'
+
+try {
+    Path fileToDelete = Paths.get(filePathToDelete)
+
+    Files.delete(fileToDelete)
+
+    if (!(Files.exists(fileToDelete))) {
+        println('File has been successfully deleted.')
+    } else {
+        println('File deletion failed.')
+    }
+}
+catch (IOException e) {
+    println('An error occurred while deleting the file: ' + e.getMessage())
+} 
+
+WebUI.takeScreenshot(relativePath + '\\Test Cases Screenshots\\Audits Conducted Section\\Line Chart\\Audits_Conducted_Line_Chart.png')
 
 WebUI.closeBrowser()
 

@@ -39,11 +39,11 @@ WebUI.verifyElementClickable(findTestObject('Page_Assure Stack Analytics/Search 
 
 WebUI.click(findTestObject('Page_Assure Stack Analytics/Search Button'))
 
-WebUI.verifyGreaterThan(WebUI.getText(findTestObject('Page_Assure Stack Analytics/label_1')), 0)
+WebUI.verifyGreaterThan(WebUI.getText(findTestObject('Page_Assure Stack Analytics/TOTAL AUDITS CONDUCTED')), 0)
 
 WebUI.verifyElementText(findTestObject('Page_Assure Stack Analytics/Inspections Performance Text'), 'INSPECTIONS PERFORMANCE')
 
-WebUI.verifyElementPresent(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart Button'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart Button'), GlobalVariable.TimeOut)
 
 WebUI.verifyElementVisible(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart Button'))
 
@@ -51,11 +51,11 @@ WebUI.verifyElementClickable(findTestObject('Page_Assure Stack Analytics/Inspect
 
 WebUI.click(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart Button'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart'), 0)
+WebUI.waitForElementPresent(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart'), GlobalVariable.TimeOut)
 
-WebUI.scrollToElement(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart'), 0)
+WebUI.scrollToElement(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart'), GlobalVariable.TimeOut)
 
-WebUI.verifyElementPresent(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Assure Stack Analytics/Inspections Performance Bar Chart'), GlobalVariable.TimeOut)
 
 String filePathToDelete = 'C:\\Users\\pcadmin\\Downloads\\audits_performance.png'
 
@@ -87,6 +87,8 @@ File downloadedFile = new File(downloadPath, fileName)
 if (downloadedFile.exists()) {
     println('File has been successfully downloaded.')
 }
+
+WebUI.callTestCase(findTestCase('Common Testcases/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

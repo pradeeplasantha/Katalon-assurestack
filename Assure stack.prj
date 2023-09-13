@@ -6,6 +6,7 @@
    <UUID>c092a260-927c-4075-bd46-36c9a92b2b81</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\pcadmin\Desktop\katalon\Assure stack\Assure stack.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

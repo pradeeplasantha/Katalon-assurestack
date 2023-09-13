@@ -39,11 +39,12 @@ WebUI.verifyElementClickable(findTestObject('Page_Assure Stack Analytics/Search 
 
 WebUI.click(findTestObject('Page_Assure Stack Analytics/Search Button'))
 
-WebUI.verifyGreaterThan(WebUI.getText(findTestObject('Page_Assure Stack Analytics/label_1')), 0)
+WebUI.verifyGreaterThan(WebUI.getText(findTestObject('Page_Assure Stack Analytics/TOTAL AUDITS CONDUCTED')), 0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Assure Stack Analytics/AUDITS CONDUCTED Text'), 'AUDITS CONDUCTED')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart Button'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart Button'), 
+    GlobalVariable.TimeOut)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart Button'))
 
@@ -51,11 +52,12 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Assure Stack
 
 WebUI.click(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart Button'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart'), 0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart'), 
+    GlobalVariable.TimeOut)
 
-WebUI.scrollToElement(findTestObject('Page_Assure Stack Analytics/Audits Conducted Bar Chart'), 0)
+WebUI.scrollToElement(findTestObject('Page_Assure Stack Analytics/Audits Conducted Bar Chart'), GlobalVariable.TimeOut)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Assure Stack Analytics/Audits Conducted Bar Chart'), GlobalVariable.TimeOut)
 
 String filePathToDelete = 'C:\\Users\\pcadmin\\Downloads\\audits_conducted.png'
 
@@ -89,3 +91,4 @@ if (downloadedFile.exists()) {
 }
 
 WebUI.closeBrowser()
+

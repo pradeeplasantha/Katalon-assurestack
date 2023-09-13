@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Common Testcases/Login'), [:], FailureHandling.
 
 WebUI.callTestCase(findTestCase('Common Testcases/VerifyAnalyticsButton'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Assure Stack Analytics/Reports Text'), 0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Assure Stack Analytics/Reports Text'), GlobalVariable.TimeOut)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Assure Stack Analytics/Hide Filter Button'), 'Hide Filters')
 
@@ -32,6 +32,8 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Assure Stack
 WebUI.click(findTestObject('Object Repository/Page_Assure Stack Analytics/Hide Filter Button'))
 
 WebUI.verifyTextNotPresent('Search', false)
+
+WebUI.callTestCase(findTestCase('Common Testcases/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
